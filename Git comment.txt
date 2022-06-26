@@ -1,0 +1,22 @@
+				--Setup---
+1. git config --global user.name 'fullname'
+2. git config --global user.email 'valid email'
+
+				--Initialize & Insert Into Repository --
+1. git init
+2. git add .
+3. git commit -m 'comment'
+4. git remote add origin <URL>
+5. git push origin master
+
+				-- Clone others repo --
+1. git init
+2. git clone <URL>
+
+				-- PULL --
+1. git pull
+
+				-- PUSH INTO REPO --
+1. git status
+2. git add .
+3. git commit -m 'message'

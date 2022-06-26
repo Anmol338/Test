@@ -1,0 +1,31 @@
+Step 1
+_______
+
+Create a repository in github.com
+
+STEP 2
+______
+Then initialize your project
+git init
+
+step 3 
+We need to link remote repository to github repo
+git remote add origin https://github.com/Anmol338/Demo.git
+
+Check the status to confirm whether files is added for not
+git status
+
+to create a separate  branch
+git branch -M main
+
+now, add your file in remote and github
+git add .
+
+git commit -m 'First commit'
+
+git push -u origin main
+
+
+Push modified into the github into github
+git status
+
